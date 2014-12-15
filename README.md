@@ -29,13 +29,19 @@ Vagrantfile Generatoren
 
 ## Cucumber
 
+* [Cucumber Homepage](http://cukes.info/)
+
+### vagrant-cucumber
+
+* [vagrant-cucumber description](https://github.com/scalefactory/vagrant-cucumber/#description)
+
+### vagrant plugins
+
 ```
 λ vagrant --version
 Vagrant 1.6.5
 
-C:\Users\stefan.scherer\GitHub\vagrant-cucumber-course (master)
 λ vagrant plugin list
-awesome_print (1.2.0)
 vagrant-multiprovider-snap (0.0.14)
 vagrant-cucumber (0.0.8)
 vagrant-login (1.0.1, system)
@@ -44,5 +50,8 @@ vagrant-serverspec (0.1.0)
 vagrant-share (1.1.3, system)
 vagrant-vcloud (0.4.3)
 vagrant-vmware-workstation (3.1.2)
-vcloud (0.0.1.1)`
+```
+
+```cmd
+vagrant plugin install vagrant-cucumber
 ```
