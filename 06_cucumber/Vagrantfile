@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+
+  config.vm.define :win7 do |win7|
+
+    win7.vm.box = "windows_7"
+    win7.vm.hostname = 'win7'
+
+    win7.vm.provider "virtualbox" do |v|
+      v.gui = true
+      v.memory = 768
+      v.cpus = 1
+      v.customize ["modifyvm", :id, "--vram", "32"]
+      v.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
+    end
+
+    # win7.vm.provision "shell", path: "scripts/provision.bat"
+
+  end
+end
