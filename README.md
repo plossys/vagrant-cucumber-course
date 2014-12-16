@@ -27,31 +27,25 @@ Vagrantfile Generatoren
 * [plossys/edc-box](https://github.com/plossys/edc-box)
   - easyPRIMA 1.2.4. running on CentOS 6.4 (32bit)
 
+### Books
+
+* [Vagrant: Up and Running](http://shop.oreilly.com/product/0636920026358.do) by Mitchell Hashimoto
+* [Vagrant Cookbook](https://leanpub.com/vagrantcookbook) by Erika Heidi
+
 ## Cucumber
 
 * [Cucumber Homepage](http://cukes.info/)
+* [Behavior Driven Development with Cucumber](http://de.slideshare.net/bkeepers/behavior-driven-development-with-cucumber-presentation)
+* [Behavior Driven Development and Automation Testing Using Cucumber](http://de.slideshare.net/kmstechnology/behavior-driven-development-and-automation-testing-using-cucumber)
+* [Cucumber Setup und Grundlagen](https://blog.codecentric.de/2013/08/cucumber-setup-grundlagen/)
 
 ### vagrant-cucumber
 
 * [vagrant-cucumber description](https://github.com/scalefactory/vagrant-cucumber/#description)
 
-### vagrant plugins
+### Real world example
+* [plossys/apw-cucumber](https://github.com/plossys/apw-cucumber)
 
-```
-λ vagrant --version
-Vagrant 1.6.5
+### Books
 
-λ vagrant plugin list
-vagrant-multiprovider-snap (0.0.14)
-vagrant-cucumber (0.0.8)
-vagrant-login (1.0.1, system)
-vagrant-pristine (0.3.0)
-vagrant-serverspec (0.1.0)
-vagrant-share (1.1.3, system)
-vagrant-vcloud (0.4.3)
-vagrant-vmware-workstation (3.1.2)
-```
-
-```cmd
-vagrant plugin install vagrant-cucumber
-```
+* [The Cucumber Book](https://pragprog.com/book/hwcuc/the-cucumber-book) by Matt Wynne and Aslak Hellesøy
