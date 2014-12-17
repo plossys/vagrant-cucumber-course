@@ -7,7 +7,7 @@
 ### Why Vagrant
 
 * [Portable Environments with Vagrant](https://speakerdeck.com/erikaheidi/portable-environments-with-vagrant) by Erika Heidi
-
+* [Vagrant - Development environments made easy](http://wichteldesign.github.io/vagrant-dev-enviroments-made-easy/#/) by Felix Peters
 * First Demo
 
 * [Think about it like this](https://speakerdeck.com/crohr/virtualize-your-development-environments-with-vagrant-puppet?slide=16#)
