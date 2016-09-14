@@ -24,7 +24,20 @@ Vagrantfile Generatoren
 ### Real world example
 
 * [plossys/edc-box](https://github.com/plossys/edc-box)
-  - easyPRIMA 1.2.4. running on CentOS 6.4 (32bit)
+  - easyPRIMA 1.2.4 from Master, running on CentOS 6.7 (32bit)
+* [plossys/adfs2](https://github.com/plossys/adfs2)
+  - Windows Domain with easyPRIMA, netdome 4.5 from Frozen Master, Print servers, Terminal Server and a Windows Client
+* [plossys/nd4-cucumber](https://github.com/plossys/nd4-cucumber)
+  - A first Cucumber test with netdome 4 running on Windows, from last course
+* [plossys/vagrant](https://github.com/plossys/vagrant)
+  - Lots of Vagrant environments
+  - [p50-easyprima](https://github.com/plossys/vagrant/tree/master/p50-easyprima)
+    - easyPRIMA from Master, running on Windows
+  - [vs2012-qt5](https://github.com/plossys/vagrant/tree/master/vs2012-qt5)
+    - Development environment for APW Systray, Infoclient Systray
+  - [vs2012-sealdrv3](https://github.com/plossys/vagrant/tree/master/vs2012-sealdrv3)
+    -  Development environment for SEAL Master driver V3
+  
 
 ### Books
 
