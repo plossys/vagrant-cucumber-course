@@ -31,6 +31,8 @@ Vagrantfile Generatoren
   - Lots of Vagrant environments
   - [p50-easyprima](https://github.com/plossys/vagrant/tree/master/p50-easyprima)
     - easyPRIMA from Master, running on Windows
+  - [ubuntu-intellij](https://github.com/plossys/vagrant/tree/master/ubuntu-intellij)
+    - Development environment for P50 running on Ubuntu, for Windows Users
   - [vs2012-qt5](https://github.com/plossys/vagrant/tree/master/vs2012-qt5)
     - Development environment for APW Systray, Infoclient Systray
   - [vs2012-sealdrv3](https://github.com/plossys/vagrant/tree/master/vs2012-sealdrv3)
