@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. VMware Workstation 12.1.1 (Pro) ganz normal installieren https://download3.vmware.com/software/wkst/file/VMware-workstation-full-12.1.1-3770994.exe
+1. VMware Workstation 12.5.0 (Pro) ganz normal installieren https://download3.vmware.com/software/wkst/file/VMware-workstation-full-12.1.1-3770994.exe
 2. Vagrant 1.8.5 installieren https://releases.hashicorp.com/vagrant/1.8.5/vagrant_1.8.5.msi
 
 ## Konfiguration Vagrant
@@ -38,3 +38,14 @@ Vagrant muss für VMware in einer Admin Shell benutzt werden. Für Hyper-V auf W
 
 Das wäre erst mal alles für die Vorbereitung.
 
+## Vagrant und vCloud
+
+Siehe https://github.com/plossys/vagrant/tree/master/vcloud
+
+Basisboxen für vCloud, damit Vagrant die VM's im COM-BUILD-CATALOG verwenden kann.
+
+```
+vagrant box add windows_2008_r2 http://roecloudsrv001/vagrant/vcloud/dummy.box
+vagrant box add windows_2012_r2 http://roecloudsrv001/vagrant/vcloud/dummy.box
+...
+```
