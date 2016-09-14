@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. VMware Workstation 12 (Pro) ganz normal installieren.
+1. VMware Workstation 12.1.1 (Pro) ganz normal installieren https://download3.vmware.com/software/wkst/file/VMware-workstation-full-12.1.1-3770994.exe
 2. Vagrant 1.8.5 installieren https://releases.hashicorp.com/vagrant/1.8.5/vagrant_1.8.5.msi
 
 ## Konfiguration Vagrant
