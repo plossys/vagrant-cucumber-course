@@ -40,12 +40,5 @@ Das wäre erst mal alles für die Vorbereitung.
 
 ## Vagrant und vCloud
 
-Siehe https://github.com/plossys/vagrant/tree/master/vcloud
+Erste Schritte mit Vagrant und vCloud siehe https://github.com/plossys/vagrant/tree/master/vcloud
 
-Basisboxen für vCloud, damit Vagrant die VM's im COM-BUILD-CATALOG verwenden kann.
-
-```
-vagrant box add windows_2008_r2 http://roecloudsrv001/vagrant/vcloud/dummy.box
-vagrant box add windows_2012_r2 http://roecloudsrv001/vagrant/vcloud/dummy.box
-...
-```
