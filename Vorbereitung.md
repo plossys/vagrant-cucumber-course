@@ -9,11 +9,12 @@
 
 Falls Laufwerk C: nicht gleich eine große SSD ist, dann die Umgebungsvariable VAGRANT_HOME auf ein Verzeichnis auf der großen SSD setzen.
 
-zum Beispiel:  `VAGRANT_HOME = X:\vagrant`
+zum Beispiel:  `VAGRANT_HOME = D:\vagrant`
 
 Hintergrund: Vagrant verwaltet lokale Vagrant Boxen, von denen Kopien gezogen werden. Und wenn das auf der (lahmen) C: Platte läge, wäre das nicht gerade förderlich, da das Kopieren dann lange dauert.
 
 Die Umgebungsvariable bitte sowohl für den aktuellen Benutzer als auch für den `.\localadmin` eintragen.
+Also als Systemumgebungsvariable eintragen.
 
 ## Lizenzierung Vagrant
 
